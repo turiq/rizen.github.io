@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nastya_Rizen</title>
+    <link rel="stylesheet" href="postcss/normalize.css">
+    <link rel="stylesheet" href="css/dist/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poiret+One|Roboto+Slab:100,300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <script src="dist/bundle.js"></script>
+    <script>
+        function showBlock(id) {
+            document.getElementById(id).classList.add('open');
+            document.getElementById(id).classList.remove('close');
+        }
+        function closeBlock(id) {
+            setTimeout(toggleBlock,300);
+            document.getElementById(id).classList.add('slide');
+            function toggleBlock() {
+                document.getElementById(id).classList.add('close');
+                document.getElementById(id).classList.remove('open');
+                document.getElementById(id).classList.remove('slide');
+            }
+        }
+        
+    </script>
+</head>
+<body>
+        <svg style="display:none;">
+                <symbol id="vk" viewBox="0 0 548.358 548.358">
+                    <g>
+                        <path d="M545.451,400.298c-0.664-1.431-1.283-2.618-1.858-3.569c-9.514-17.135-27.695-38.167-54.532-63.102l-0.567-0.571
+		l-0.284-0.28l-0.287-0.287h-0.288c-12.18-11.611-19.893-19.418-23.123-23.415c-5.91-7.614-7.234-15.321-4.004-23.13
+		c2.282-5.9,10.854-18.36,25.696-37.397c7.807-10.089,13.99-18.175,18.556-24.267c32.931-43.78,47.208-71.756,42.828-83.939
+		l-1.701-2.847c-1.143-1.714-4.093-3.282-8.846-4.712c-4.764-1.427-10.853-1.663-18.278-0.712l-82.224,0.568
+		c-1.332-0.472-3.234-0.428-5.712,0.144c-2.475,0.572-3.713,0.859-3.713,0.859l-1.431,0.715l-1.136,0.859
+		c-0.952,0.568-1.999,1.567-3.142,2.995c-1.137,1.423-2.088,3.093-2.848,4.996c-8.952,23.031-19.13,44.444-30.553,64.238
+		c-7.043,11.803-13.511,22.032-19.418,30.693c-5.899,8.658-10.848,15.037-14.842,19.126c-4,4.093-7.61,7.372-10.852,9.849
+		c-3.237,2.478-5.708,3.525-7.419,3.142c-1.715-0.383-3.33-0.763-4.859-1.143c-2.663-1.714-4.805-4.045-6.42-6.995
+		c-1.622-2.95-2.714-6.663-3.285-11.136c-0.568-4.476-0.904-8.326-1-11.563c-0.089-3.233-0.048-7.806,0.145-13.706
+		c0.198-5.903,0.287-9.897,0.287-11.991c0-7.234,0.141-15.085,0.424-23.555c0.288-8.47,0.521-15.181,0.716-20.125
+		c0.194-4.949,0.284-10.185,0.284-15.705s-0.336-9.849-1-12.991c-0.656-3.138-1.663-6.184-2.99-9.137
+		c-1.335-2.95-3.289-5.232-5.853-6.852c-2.569-1.618-5.763-2.902-9.564-3.856c-10.089-2.283-22.936-3.518-38.547-3.71
+		c-35.401-0.38-58.148,1.906-68.236,6.855c-3.997,2.091-7.614,4.948-10.848,8.562c-3.427,4.189-3.905,6.475-1.431,6.851
+		c11.422,1.711,19.508,5.804,24.267,12.275l1.715,3.429c1.334,2.474,2.666,6.854,3.999,13.134c1.331,6.28,2.19,13.227,2.568,20.837
+		c0.95,13.897,0.95,25.793,0,35.689c-0.953,9.9-1.853,17.607-2.712,23.127c-0.859,5.52-2.143,9.993-3.855,13.418
+		c-1.715,3.426-2.856,5.52-3.428,6.28c-0.571,0.76-1.047,1.239-1.425,1.427c-2.474,0.948-5.047,1.431-7.71,1.431
+		c-2.667,0-5.901-1.334-9.707-4c-3.805-2.666-7.754-6.328-11.847-10.992c-4.093-4.665-8.709-11.184-13.85-19.558
+		c-5.137-8.374-10.467-18.271-15.987-29.691l-4.567-8.282c-2.855-5.328-6.755-13.086-11.704-23.267
+		c-4.952-10.185-9.329-20.037-13.134-29.554c-1.521-3.997-3.806-7.04-6.851-9.134l-1.429-0.859c-0.95-0.76-2.475-1.567-4.567-2.427
+		c-2.095-0.859-4.281-1.475-6.567-1.854l-78.229,0.568c-7.994,0-13.418,1.811-16.274,5.428l-1.143,1.711
+		C0.288,140.146,0,141.668,0,143.763c0,2.094,0.571,4.664,1.714,7.707c11.42,26.84,23.839,52.725,37.257,77.659
+		c13.418,24.934,25.078,45.019,34.973,60.237c9.897,15.229,19.985,29.602,30.264,43.112c10.279,13.515,17.083,22.176,20.412,25.981
+		c3.333,3.812,5.951,6.662,7.854,8.565l7.139,6.851c4.568,4.569,11.276,10.041,20.127,16.416
+		c8.853,6.379,18.654,12.659,29.408,18.85c10.756,6.181,23.269,11.225,37.546,15.126c14.275,3.905,28.169,5.472,41.684,4.716h32.834
+		c6.659-0.575,11.704-2.669,15.133-6.283l1.136-1.431c0.764-1.136,1.479-2.901,2.139-5.276c0.668-2.379,1-5,1-7.851
+		c-0.195-8.183,0.428-15.558,1.852-22.124c1.423-6.564,3.045-11.513,4.859-14.846c1.813-3.33,3.859-6.14,6.136-8.418
+		c2.282-2.283,3.908-3.666,4.862-4.142c0.948-0.479,1.705-0.804,2.276-0.999c4.568-1.522,9.944-0.048,16.136,4.429
+		c6.187,4.473,11.99,9.996,17.418,16.56c5.425,6.57,11.943,13.941,19.555,22.124c7.617,8.186,14.277,14.271,19.985,18.274
+		l5.708,3.426c3.812,2.286,8.761,4.38,14.853,6.283c6.081,1.902,11.409,2.378,15.984,1.427l73.087-1.14
+		c7.229,0,12.854-1.197,16.844-3.572c3.998-2.379,6.373-5,7.139-7.851c0.764-2.854,0.805-6.092,0.145-9.712
+		C546.782,404.25,546.115,401.725,545.451,400.298z"/>
+                    </g>
+                </symbol>
+                <symbol id="instagram" viewBox="0 0 512 512">
+                    <g>
+                        <g>
+                            <path d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160
+                                C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48
+                                h192c61.76,0,112,50.24,112,112V352z"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z M256,336
+                                c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80C336,300.096,300.096,336,256,336z"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <circle cx="393.6" cy="118.4" r="17.056"/>
+                        </g>
+                    </g>
+                </symbol>
+                
+                <symbol id="left-arrow" viewBox="0 0 492 492">
+                        <g>
+                            <path d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12
+                                C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084
+                                c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864
+                                l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z"/>
+                        </g>
+                </symbol>
+                <symbol id="right-arrow" viewBox="0 0 492.004 492.004">
+                        <g>
+                                <path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+                                c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+                                c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+                                c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+                        </g>
+                </symbol>
+                <symbol id="down-arrow" viewBox="0 0 491.996 491.996">
+                        <g>
+                                <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+                                L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+                                c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+                                c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+                                C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+                        </g>
+                </symbol>
+                <symbol id="up-arrow" viewBox="0 0 492.002 492.002">
+                        <g>
+                            <path d="M484.136,328.473L264.988,109.329c-5.064-5.064-11.816-7.844-19.172-7.844c-7.208,0-13.964,2.78-19.02,7.844
+			L7.852,328.265C2.788,333.333,0,340.089,0,347.297c0,7.208,2.784,13.968,7.852,19.032l16.124,16.124
+			c5.064,5.064,11.824,7.86,19.032,7.86s13.964-2.796,19.032-7.86l183.852-183.852l184.056,184.064
+			c5.064,5.06,11.82,7.852,19.032,7.852c7.208,0,13.96-2.792,19.028-7.852l16.128-16.132
+			C494.624,356.041,494.624,338.965,484.136,328.473z"/>
+                        </g>
+                </symbol>
+        
+        </svg>
+<div class="container">
+    <!--Header-->
+    <header>
+        <div class="header">
+            <div class="header__burger" >
+                <div class="burger">
+                    <span class="burger__item"></span>
+                </div>
+            </div>
+            <div class="header__social">
+                <a href="https://urlgeni.us/vk/rizen" class="social__link" target="_blank>">
+                    <svg class="social__icon">
+                        <use xlink:href="#vk"></use>
+                    </svg>
+                </a>
+                <a href="https://urlgeni.us/instagram/rizen" class="social__link" target="_blank">
+                    <svg class="social__icon">
+                        <use xlink:href="#instagram"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+    </header>
+    
+    <!--NAV-->
+    <div class="nav__menu fadeOut close" id="nav__menu">
+        <nav class="nav__menu__block" > 
+            <a href="#" class="nav__menu__link nav__main" onclick="closeBlock('about');closeBlock('contact');closeBlock('portfolio')">ГЛАВНАЯ</a>
+            <a href="#" class="nav__menu__link nav__about" onclick="showBlock('about');closeBlock('contact');closeBlock('portfolio')">ОБО МНЕ</a>
+            <a href="#" class="nav__menu__link nav__contact" onclick="showBlock('contact');closeBlock('about');closeBlock('portfolio')">КОНТАКТЫ</a>
+            <a href="#" class="nav__menu__link nav__portfolio" onclick="showBlock('portfolio');closeBlock('about');closeBlock('contact')">ПОРТФОЛИО</a>
+        </nav>
+    </div>
+    <!--Intro-->
+    <div class="intro open" id="intro">
+        <div class="intro__nav left--btn" onclick="showBlock('about');closeBlock('contact')">
+            <svg class="left__btn__arrow intro__about__arrow arrow--icon">
+                        <use xlink:href="#left-arrow"></use>
+            </svg>
+            <a href="#" class="intro__about__btn btn">ОБО МНЕ</a>
+        </div>
+        <div class="intro__inner open" id="intro__inner">
+            <h1 class="intro__title">Nastya Rizen</h1>
+            <h2 class="intro__subtitle">PHOTOGRAPHER <b>PORTFOLIO</b></h2>
+            <a href="#" class="intro__order__btn btn " onclick="showBlock('contact')">ЗАКАЗАТЬ</a>
+        </div>
+        <div class="intro__nav right--btn" onclick="showBlock('contact');closeBlock('about')">
+            <svg class="right__btn__arrow intro__contact__arrow arrow--icon">
+                <use xlink:href="#right-arrow"></use>
+            </svg>
+            <a href="#" class="intro__contact__btn btn">КОНТАКТЫ</a>
+            
+        </div>
+        <div class="intro__downbutton">
+            <div class="down__btn" onclick="showBlock('portfolio');closeBlock('about');closeBlock('contact')">
+                <a href="#" class="down__btn__item btn">ПОРТФОЛИО</a>
+                <svg class="down__btn__arrow arrow--icon scrolldown__item">
+                        <use xlink:href="#down-arrow"></use>
+                </svg>
+            </div>
+            
+        </div>
+    </div>
+    <!--About popup-->
+    <div class="about popup__block close" id="about">
+        <div class="popup__close__button" onclick="closeBlock('about')">
+            <svg class="left__btn__arrow arrow--icon">
+                <use xlink:href="#left-arrow"></use>
+            </svg>
+            <a href="#" class="about__close__btn btn">ЗАКРЫТЬ</a>
+        </div>
+        <div class="about__content popup__block__content">
+            <div class="about__content__item popup__block__content__item about--text">
+                <div class="about__content__title">
+                        <span>Hello,</span><br>
+                        It is my portfolio.
+                </div>
+                <div class="about__content__text">
+                        Cras congue semper condimentum. Proin eu suscipit massa, id iaculis lacus. Suspendisse ut odio id diam vestibulum posuere. Nulla lobortis diam dui, id elementum urna fermentum eu. Fusce venenatis posuere finibus. Quisque tempor metus eget porttitor tempor. Pellentesque nec arcu massa.
+                </div>
+                <div class="about__content__social">
+                    <a href="https://urlgeni.us/instagram/rizen" class="instagram" target="_blank">instagram</a>
+                    <a href="https://urlgeni.us/vk/rizen" class="vkontakte" target="_blank">vkontakte</a>
+                    
+                </div>
+            </div>
+            <div class="about__content__item popup__block__content__item popup__content__logo">
+                <h3 class="about__logo popup__logo">
+                    Nastya <br>Rizen</br>
+                </h3>
+            </div>
+        </div>
+        <div class="popup__swipe__button" onclick="closeBlock('about')">
+            <a class="swipe__button__item">
+                <svg class="popup__swipe__button__arrow">
+                    <use xlink:href="#left-arrow"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <!--Contact popup-->
+    <div class="contact popup__block close" id="contact">
+        <div class="popup__swipe__button" onclick="closeBlock('contact')">
+            <a class="swipe__button__item">
+                <svg class="popup__swipe__button__arrow">
+                    <use xlink:href="#right-arrow"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="contact__content popup__block__content">
+            <div class="contact__content__item popup__block__content__item popup__content__logo">
+                <h3 class="contact__logo popup__logo">
+                 Nastya <br>Rizen</br>
+                </h3>
+            </div>
+            <div class="contact__content__item popup__block__content__item contact--form">
+                <div class="contact__input__form">
+                    <div class="form__title">
+                        <h3>Обратная связь</h3>
+                    </div>
+                    <form method="post" action="#">
+                        <div class="form__input__name">
+                          <input type="text" name="name" placeholder="Имя" required>
+                        </div>
+                        <div class="form__input__email">
+                          <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form__input__message">
+                            <textarea name="area" placeholder="Сообщение" wrap=”on”></textarea>
+                        </div>
+                        <button class="contact__submit__button" type="submit">ОТПРАВИТЬ</button> 
+                    </form> 
+                </div>
+            </div>  
+        </div>
+        <div class="popup__close__button" onclick="closeBlock('contact')">
+            <a href="#" class="contact__close__btn btn">ЗАКРЫТЬ</a>
+            <svg class="right__btn__arrow arrow--icon">
+                <use xlink:href="#right-arrow"></use>
+            </svg>
+        </div>
+
+    </div>
+    <!--Portfolio-->
+    <div class="portfolio close" id="portfolio">
+        <div class="portfolio__img__block">
+            <img src="https://via.placeholder.com/1920x1080.jpg" alt="" class="portfolio__img__block__item">
+        </div>
+        <div class="portfolio__nav">
+            <a class="portfolio__nav__item prev--btn">
+                <svg class="portfolio__nav__item__arrow">
+                    <use xlink:href="#left-arrow"></use>
+                </svg>
+            </a>
+            <a class="portfolio__nav__item next--btn">
+                <svg class="portfolio__nav__item__arrow">
+                    <use xlink:href="#right-arrow"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="portfolio__counter">
+            <span class="portfolio__counter__item">1/1</span>
+        </div>
+        <div class="portfolio__close__block" >
+            <div class="portfolio__close__block__item" onclick="closeBlock('portfolio')">
+                <a href="#" class="portfolio__close__btn btn">ЗАКРЫТЬ</a>
+                <svg class="down__btn__arrow arrow--icon">
+                    <use xlink:href="#down-arrow"></use>
+                </svg>
+            </div>    
+            </div>
+    </div>
+</div>
+    
+
+</body>
+</html>
